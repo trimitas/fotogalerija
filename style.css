@@ -1,0 +1,42 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#search-input {
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid blue;
+    border-right: none;
+    
+}
+
+#search-button {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    
+    
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    
+    
+}
